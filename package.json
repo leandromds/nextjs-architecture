@@ -7,10 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest",
+    "test": "vitest --run",
+    "test:w": "vitest",
     "prettier": "prettier --write .",
     "sb": "storybook dev -p 6006",
-    "build-sb": "storybook build"
+    "build-sb": "storybook build",
+    "prepare": "husky"
   },
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
